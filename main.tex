@@ -7,40 +7,9 @@
 
 
 
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[brazilian]{babel}
-\usepackage{epsfig}
-\usepackage{subfigure}
-\usepackage{amsfonts}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage[thmmarks,amsmath]{ntheorem}%\usepackage{amsthm}
-\usepackage{boxedminipage}
-\usepackage{geometry}
-\usepackage{theorem}
-\usepackage{fancybox}
-\usepackage{fancyhdr}
-\usepackage{ifthen}
-\usepackage{url}
-\usepackage{afterpage}
-\usepackage{color}
-\usepackage{colortbl}
-\usepackage{rotating}
-\usepackage{makeidx}
-\usepackage{epstopdf}
-\usepackage{indentfirst}
-\usepackage[pdfstartview=FitH]{hyperref}
-\usepackage[table,xcdraw]{xcolor}
-\usepackage{multirow}
-\usepackage{pdfpages}
-\usepackage{lastpage}
-
-
-
-
 % Pacotes
 \include{partes/pacotes}
+
 
 \makeindex
  
@@ -64,33 +33,33 @@
 
 % Comandos para criar a capa e a página de assinaturas.
 \capaprincipal
-\capaassinaturas
+%+\capaassinaturas
 \setcounter{page}{3}
 
 % Comando para criar a ficha catalográfica
-\fichacatalografica
+%+\fichacatalografica
 
 \frontmatter
 \fontsize{12}{14}\selectfont
 
 % Comando para criar a página de dedicatória
-\include{partes/dedicatoria}
+%+ \include{partes/dedicatoria}
 %\dedicatoria
 
 % Comando para criar a página de agradecimentos
-\include{partes/agradecimentos}
+%+ \include{partes/agradecimentos}
 %\agradecimentos
 
 \setcounter{page}{6}
 
-\include{partes/resumos}
+%+\include{partes/resumos}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Listas de conteúdo, figuras e tabelas.								%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \sumario
-\listadefiguras
-\listadetabelas
+%+\listadefiguras
+%+\listadetabelas
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -107,9 +76,16 @@
 
 % Inclua capítulos da dissertação aqui
 
-\include{partes/introducao}
-\include{capitulos/metodologia/metodologia}
+% introdução geral do trabalho
+\include{chapters/introduction}
+
+% partes do trabalho
+% \include{chapters/metodologia/metodologia}
+
+% conclusão geral do trabalho
+\include{chapters/conclusion}
 % etc
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Referências bibliográficas											%
