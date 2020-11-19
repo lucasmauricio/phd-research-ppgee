@@ -1,17 +1,14 @@
-# UnB PPGEE Template
+# PhD Research - ongoing - PPGEE/UnB 
 
-O UnB PPGEE Template é um modelo LaTeX para a elaboração de dissertações de mestrado e teses de doutorado do [PPGEE](https://ppgee.unb.br/).
-O Programa de Pós-Graduação em Engenharia Elétrica (PPGEE) é um programa de pós-graduação, cuja origem se deu no final dos anos 1970, do Departamento de Engenharia Elétrica (ENE) da [Universidade de Brasília (UnB)](https://unb.br/).
+This repository has the record of the research that is being carried out in my doctorate since the beginning of 2020.
+The ongoing research is being registered as a document in the doctoral thesis type of the template used in the [PPGEE](https://ppgee.unb.br/).
 
-O modelo foi elaborado com base no modelo do PGEA (outro programa de pós-graduação), obtido no sítio do [Gustavo Sandri](http://gustavopsandri.wixsite.com/templates) (obs.: para maiores informações sobre o modelo original e a sua história, favor visitar o sítio do Gustavo Sandri).
+It is important to note that this repository does not, for now, have the purpose of being used for the production of the doctoral thesis itself.
+There are still some preliminary steps before it is elaborated. Just for illustrating it, the qualification document will be the most "hard" step to accomplish i.
 
-## TODOs
 
-- [ ] Analisar e documentar as personalizações possíveis
-- [ ] Ligar com template no Overleaf e/ou Sharelatex
+## More information
 
-### Agradecimentos
+I have been enrolled at PPGEE since Feb-2020.
 
-Agradecemos aos criados do modelo que usamos como base, com destaque para Gustavo Sandri e o prof. Geovany Araújo Borges.
-
-Também agradecemos aos responsáveis pelo modelo do [IFB](https://github.com/IFBmodels/tcc) pela inspiração sobre como documentar e organizar o repositório no GitHub.
+The Graduate Program in Electrical Engineering (PPGEE) is a graduate program, which originated in the late 1970s, of the Department of Electrical Engineering (ENE) of [University of Brasília (UnB)](https://unb.br/).
